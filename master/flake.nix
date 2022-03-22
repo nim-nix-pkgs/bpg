@@ -10,7 +10,7 @@
   inputs.src-bpg-master.flake = false;
   inputs.src-bpg-master.ref   = "refs/heads/master";
   inputs.src-bpg-master.owner = "def-";
-  inputs.src-bpg-master.repo  = "nim-bpg.git";
+  inputs.src-bpg-master.repo  = "nim-bpg";
   inputs.src-bpg-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
